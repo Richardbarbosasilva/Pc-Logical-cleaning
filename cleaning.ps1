@@ -12,9 +12,6 @@ $FolderPath4 = "$env:USERPROFILE\AppData\Local\Temp\"
 $Pastaexcecao1 = @("Microsoft", "Fortes", "Zoiper5")
 $Pastaexcecao2 = "Intel"
 
-#apps that will be removed to save some disk space
-$Appremove1 = "MicrosoftTeams"
-
 # Allocated function here to serve as a reserve when needed to make a condition where a path excludes all folders except for some folder you choose not to be erased
 
 function CanRemoveItem($item) {
