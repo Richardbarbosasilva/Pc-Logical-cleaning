@@ -1,4 +1,4 @@
-# Changelog
+## Changelog
 
 Todas as notáveis mudanças neste projeto serão documentadas neste arquivo.
 
@@ -15,4 +15,4 @@ Todas as notáveis mudanças neste projeto serão documentadas neste arquivo.
 - identificado e sanado o bug em que a automação após ser executada apagava o papel de parede da máquina.
 
 ### Added
-- Foi adicionada uma constante "BG_WALLPAPER" 
+- Foi adicionada uma constante "BG_WALLPAPER" referente ao arquivo que ao ser apagado excluia o papel de parede por todo o tempo de sessão do usuário, e adicionada uma condição de exceção nesse arquivo, para sanar o bug citado anteriormente.
