@@ -105,7 +105,7 @@ Write-Host "recycle bin was clearead with success!"
 
 #For third step, All cleaning done, for third step will be done a check disk and sfc command by invoking the cmd.exe
 
-Start-Process -FilePath "chkdsk" -ArgumentList "/I /C /perf /scan"  -Verb RunAs
+Start-Process -FilePath "chkdsk" -ArgumentList "/perf /scan"  -Verb RunAs
 Write-Host "chkdsk successfully started."
 
 Start-Process -FilePath "sfc" -ArgumentList "/VERIFYONLY" -Verb RunAs
